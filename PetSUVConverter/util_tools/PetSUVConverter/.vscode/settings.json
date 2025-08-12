@@ -1,0 +1,52 @@
+{
+    "python.pythonPath": "C:\\Apps\\Anaconda\\python.exe",
+    // 文件头部注释
+    "fileheader.configObj": {
+        "prohibitAutoAdd": [ "json", "md" ],
+        "language":{
+            "py":{
+                // 自定义注释头部
+                "head": "# ===================================================",
+                // 自定义注释中间部分(注意空格,这也是最终生成注释的一部分)
+                "middle": "# *", 
+                // 自定义注释尾部
+                "end": "# ===================================================", 
+                "functionSymbol": {
+                    "head": "", // 统一增加几个*号
+                    "middle": " * @",
+                    "end": " */"
+                  }
+            }
+        },
+        "beforeAnnotation": {
+          "py": "# -*- coding: utf-8 -*-\n", // py文件默认，可修改
+          "*": "\n" // 所有文件的头部注释都在前面增加一个换行(除了py)
+        },
+        "wideSame": true, // 设置为true开启
+        "wideNum": 13, // 字段长度 默认为13
+        "folderBlacklist": [
+            "node_modules",
+            "文件夹或文件名禁止自动添加头部注释",
+            // "webpack.config.js" // 可以禁止某些文件自动添加注释
+        ]
+    },
+    "fileheader.customMade": {
+        "custom_string_obkoro1_copyright": "Copyright ${now_year} United Imaging, All Rights Reserved.",
+        "Description":"",
+        "Version":"0.1",
+        "Author":"yukun.huang",
+        "Email":"yukun.huang@cri-united-imaging.com",
+        "Date":"Do not edit",
+        "FilePath": "Do not edit",
+        "LastEditors":"yukun.huang",
+        "LastEditTime":"Do not Edit"
+    },
+    //函数注释
+    "fileheader.cursorMode": {
+        "name":"",
+        "test":"test font",
+        "msg":"",
+        "param":"",
+        "return":""
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "model_name":"Resunet18",
+    "Modality":"PETCT",
+    "Radiopharmaceutical":"FDG",
+    "resolution":"3d_fullres",
+    "save_path":"./model/",
+    "model":"model_best",
+    "folds":["all"]
+}
