@@ -1,4 +1,4 @@
-# ClinicalPET_Segmentation
+# ClinicalPET_Segmentation_DLBCL
 This repository provides a complete pipeline built on nnU-Net for automated segmentation of tumor lesions from whole-body 2-[18F]-fluorodeoxyglucose (FDG) PET/CT scans, followed by extraction of key radiomics and metabolic parameters. It is designed for clinical research, multi-center studies, and large-scale imaging analysis. Processes PET and CT two channels jointly to improve accuracy in tumor boundary delineation and metabolic activity detection.
 
 
@@ -6,9 +6,9 @@ This repository provides a complete pipeline built on nnU-Net for automated segm
 1. Clone the repository
 
 ```bash
-  git clone https://github.com/IMIT-BlackTech/ClinicalPET_Segmentation.git 
+  git clone https://github.com/IMIT-BlackTech/ClinicalPET_Segmentation_DLBCL.git 
   
-  cd ClinicalPET_Segmentation
+  cd ClinicalPET_Segmentation_DLBCL
 ```
 
 2. Install dependencies
