@@ -14,10 +14,10 @@ Automatically computes metabolic tumor volume (MTV), total lesion glycolysis (TL
 ## Installation
 1. Clone the repository
 
-'''
+
   git clone https://github.com/IMIT-BlackTech/ClinicalPET_SEG.git
   cd ClinicalPET_SEG
-''' 
+
 
 2. Install dependencies
 
