@@ -18,4 +18,4 @@ This repository provides a complete pipeline built on nnU-Net for automated segm
 ```
 
 ## Acknowledgements
-We would like to acknowledge the contributions of nnU-Net.
+We would like to acknowledge the contributions of nnU-Net and TCIA_processing.
